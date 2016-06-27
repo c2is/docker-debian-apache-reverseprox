@@ -6,7 +6,7 @@
 ```
 # In your docker-compose.yml file
 reverseproxy:
-    build:  c2is/docker-debian-apache-reverseprox
+    build:  c2is/debian-apache-reverseprox
     ports:
         - "443:443"
     environment:
